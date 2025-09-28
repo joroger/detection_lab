@@ -1,0 +1,9 @@
+#!/bin/sh
+# THIS IS A WRAPPER SCRIPT FOR SPLUNK
+# IT WILL ENSURE THAT SPLUNK IS RUN AS THE CORRECT USER
+# setup-splunk.sh WILL AUTO CREATE THIS SCRIPT AS /bin/splunk
+# AUTHOR: John Rogers
+# DATE:   Sep 28, 2025
+
+
+su -c "/opt/splunk/bin/splunk $1" splunk
