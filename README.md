@@ -5,7 +5,7 @@ team based activities.
 Education through red-team and blue-team perspectives.
 
 ## Splunk Linux Setup Tools
-[This directory]() containts some helpful Splunk setup resources. I
+[This directory](https://github.com/joroger/detection_lab/tree/main/splunk-linux-setup-tools) containts some helpful Splunk setup resources. I
 highly recommend installing Splunk on Devuan with openrc setup. This 
 provides a stable OS with minimal overhead.
 
